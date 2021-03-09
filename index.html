@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Game</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body onload="game_start()">
+    <div id="canvas_wrapper">
+      <canvas id="main_canvas"></canvas>
+    </div>
+  </body>
+
+  <!-- link models -->
+  <script src="javascripts/models/player.js"></script>
+
+  <!-- link views -->
+  <script src="javascripts/views/entity_drawer.js"></script>
+  <script src="javascripts/views/main_drawer.js"></script>
+
+  <!-- link controllers -->
+  <script src="javascripts/controllers/game_controller.js"></script>
+
+  <script src="javascripts/globals.js"></script>
+  <script src="javascripts/main.js"></script>
+</html>
